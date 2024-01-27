@@ -1,7 +1,7 @@
 :root {
-    --bg-color: #181818;
-    --fg-color: #ccc;
-
-    background-color: var(--bg-color);
-    color: var(--fg-color);
+    --submit-btn: #596D48;
+    --default-border: #E5E7EB;
+    --focus-border: blue;
+    --valid-border: green;
+    --invalid-border: red;
 }
