@@ -1,0 +1,7 @@
+:root {
+    --bg-color: #181818;
+    --fg-color: #ccc;
+
+    background-color: var(--bg-color);
+    color: var(--fg-color);
+}
