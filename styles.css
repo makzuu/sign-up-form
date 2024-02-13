@@ -5,3 +5,14 @@
     --valid-border: green;
     --invalid-border: red;
 }
+
+.f-row {
+    display: flex;
+}
+
+
+.f-item {
+    display: flex;
+
+    flex-direction: column;
+}
