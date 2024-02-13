@@ -4,6 +4,9 @@
     --focus-border: blue;
     --valid-border: green;
     --invalid-border: red;
+
+    --bg-1: #F9FAFB;
+    --bg-2: #FFF;
 }
 
 .f-row {
@@ -15,4 +18,13 @@
     display: flex;
 
     flex-direction: column;
+}
+
+.main-text {
+    background-color: var(--bg-1);
+}
+
+.f-main,
+f-footer {
+    background-color: var(--bg-2);
 }
