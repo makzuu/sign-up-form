@@ -88,3 +88,27 @@ a:active {
 .right {
     padding: 26px;
 }
+
+form label {
+    text-transform: uppercase;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="tel"]
+{
+    width: 350px;
+    height: 28px;
+    border: 1px solid var(--default-border);
+    border-radius: 3px;
+
+}
+
+.f-main > * {
+    margin-bottom: 24px;
+}
+
+.f-item + .f-item {
+    margin-left: 32px;
+}
