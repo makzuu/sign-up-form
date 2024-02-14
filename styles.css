@@ -73,11 +73,11 @@ f-footer {
     color: white;
 }
 
-a:link,
-a:visited,
-a:focus,
-a:hover,
-a:active {
+.credits a:link,
+.credits a:visited,
+.credits a:focus,
+.credits a:hover,
+.credits a:active {
     color: white;
 }
 
@@ -118,4 +118,34 @@ form input[type="tel"]
 
 .f-item + .f-item {
     margin-left: 32px;
+}
+
+.f-footer {
+    padding: 32px 0px;
+}
+
+.f-footer button {
+    width: 280px;
+    height: 42px;
+
+    color: white;
+    background-color: var(--submit-btn);
+
+    border: 0;
+    border-radius: 5px;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    margin-bottom: 18px;
+}
+
+.f-footer p,
+.f-footer a {
+    font-size: 1.2rem;
+}
+
+.f-footer a {
+    text-decoration: none;
+    color: var(--submit-btn);
 }
