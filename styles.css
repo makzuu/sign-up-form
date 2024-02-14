@@ -27,8 +27,8 @@
     flex-direction: column;
 }
 
-.main-text {
-    background-color: var(--bg-1);
+.main-text > p {
+    margin-bottom: 32px;
 }
 
 .f-main,
@@ -85,9 +85,16 @@ a:active {
     display: flex;
 }
 
-.right {
-    padding: 26px;
+.right > * {
+    padding: 32px 52px;
 }
+
+.main-text {
+    background-color: var(--bg-1);
+    font-size: 2rem;
+    padding-top: 120px;
+}
+
 
 form label {
     text-transform: uppercase;
